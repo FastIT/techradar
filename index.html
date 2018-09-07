@@ -63,9 +63,9 @@ radar_visualization({
   //ENTRIES
   entries: [
       {
-        quadrant: 3,
+        quadrant: 0,
         ring: 2,
-        label: "YARN",
+        label: "Yarn",
         active: false,
         link: "../data_processing/yarn.html",
         moved: 0
@@ -104,16 +104,24 @@ radar_visualization({
       },
       {
         quadrant: 3,
-        ring: 2,
-        label: "Consul",
+        ring: 0,
+        label: "MongoDB",
         active: false,
-        link: "../datastores/consul.html",
+        link: "../datastores/mongodb.html",
         moved: 0
       },
       {
         quadrant: 3,
         ring: 0,
-        label: "MongoDB",
+        label: "db-migrate",
+        active: false,
+        link: "../datastores/mongodb.html",
+        moved: 0
+      },
+      {
+        quadrant: 3,
+        ring: 2,
+        label: "TypeORM",
         active: false,
         link: "../datastores/mongodb.html",
         moved: 0
@@ -207,7 +215,7 @@ radar_visualization({
         moved: 0
       },
       {
-        quadrant: 2,
+        quadrant: 0,
         ring: 1,
         label: "Redux",
         active: false,
@@ -264,14 +272,6 @@ radar_visualization({
       },
       {
         quadrant: 1,
-        ring: 0,
-        label: "HAProxy",
-        active: false,
-        link: "../infrastructure/haproxy.html",
-        moved: 0
-      },
-      {
-        quadrant: 1,
         ring: 3,
         label: "Vagrant",
         active: false,
@@ -308,14 +308,6 @@ radar_visualization({
         label: "AWS Lambda",
         active: false,
         link: "../infrastructure/aws_lambda.html",
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 2,
-        label: "OpenTracing",
-        active: false,
-        link: "../infrastructure/opentracing.html",
         moved: 0
       },
       {
